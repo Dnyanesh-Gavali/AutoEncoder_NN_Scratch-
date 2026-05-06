@@ -20,3 +20,7 @@ This network is designed for dimensionality reduction and image compression, tra
 Ensure you have NumPy and Scikit-Learn installed:
 ```bash
 pip install numpy scikit-learn
+
+Then RUN
+
+python autoencoder.py
