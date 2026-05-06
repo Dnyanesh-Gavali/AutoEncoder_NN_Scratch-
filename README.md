@@ -1,14 +1,15 @@
-# Autoencoder using only numpy : Built From Scratch
+# Autoencoder using only numpy :  `Built From Scratch`
 
 This was built inorder to learn all the actual working of neural network by implementing forward pass, backpropagation, dense layers and ReLU
 
 ## Overview
 This network is designed for dimensionality reduction and image compression, trained on the `scikit-learn` 8x8 handwritten digits dataset.
 
-*   **Encoder:** Maps a flattened 64-pixel image array into a compressed 32-neuron latent space.
-*   **Decoder:** Reconstructs the 32-dimensional bottleneck vector back into a 64-pixel image.
-*   **Loss Function:** Mean Squared Error (MSE).
-*   **Optimization:** Custom Gradient Descent.
+> [!IMPORTANT]
+> *   **Encoder:** Maps a flattened 64-pixel image array into a compressed 32-neuron latent space.
+> *   **Decoder:** Reconstructs the 32-dimensional bottleneck vector back into a 64-pixel image.
+> *   **Loss Function:** Mean Squared Error (MSE).
+> *   **Optimization:** Custom Gradient Descent.
 
 ## Key Features Implemented Manually
 1.  **State Management:** Custom classes cache forward-pass data required for derivative calculations.
